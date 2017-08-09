@@ -12,16 +12,15 @@ categories: 翻译
 原文链接：
 https://papers.put.as/papers/ios/2011/ios_jailbreak_analysis.pdf
 
-写在前面：第一次翻译，错误大概很多__(:_」∠)_ 另外，这是一篇2011年的旧文章，文章介绍的重放绕过验证的方法已经失效。我也不懂为什么我翻了一篇6年前的文。。
+>写在前面：第一次翻译，错误大概很多__(:_」∠)_ 另外，这是一篇2011年的旧文章，文章介绍的重放绕过验证的方法已经失效。我也不懂为什么我翻了一篇6年前的文。。
 
----
-<!-- more -->
+
 
 #### 1. 引言
 
 ##### • 什么是iOS 越狱
 
-&emsp;&emsp;iOS是Apple的移动操作系统，它来源于Mac OS X，也以Darwin为基础，是一个类Unix 的操作系统。iOS最初是专为iPhone开发的，之后也被用在iPod Touch，iPad 和Apple TV上。 在本文中，iOS特指在iDevices即iPhone，iPod，iPad和Apple TV上运行的小型操作系统。这个操作系统大约使用500M的设备存储空间，它有四个抽象层：Core OS（核心操作系统）层，Core Service（核心服务）层，媒体层和Cocoa Touch层。
+&emsp;&emsp;iOS是Apple的移动操作系统，它来源于Mac OS X，也以Darwin为基础，是一个类Unix 的操作系统。iOS最初是专为iPhone开发的，之后也被用在iPod Touch，iPad 和Apple TV上。 在本文中，iOS特指在iDevices即iPhone，iPod，iPad和Apple TV上运行的小型操作系统。<!-- more -->这个操作系统大约使用500M的设备存储空间，它有四个抽象层：Core OS（核心操作系统）层，Core Service（核心服务）层，媒体层和Cocoa Touch层。
 
 &emsp;&emsp;出于安全和商业的原因，Apple不允许其操作系统在第三方硬件上运行，同时对在iDevices上使用iOS也有限制。因此，iOS受到了各种形式的入侵攻击，这些入侵攻击着重于增加Apple不支持的功能。这种入侵就叫iOS越狱。
 	

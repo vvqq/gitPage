@@ -9,10 +9,10 @@ search:
   limit: 10000
   
 # Site
-title: ZYue 
+title: ZYUE 
 subtitle: 
 description:
-author: zyue
+author: ZYUE
 language: zh-Hans
 timezone: 
 #avatar: /img/touxiang.jpeg 在主题里设置
@@ -96,3 +96,7 @@ jsonContent:
       excerpt: false
       categories: false
       tags: true
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+plugins: hexo-generate-feed
